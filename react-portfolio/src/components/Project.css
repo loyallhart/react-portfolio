@@ -1,0 +1,367 @@
+:root {
+    --main: #E07A5F;
+    --background: #F4F1DE;
+    --middle: #81B29A;
+    --dark: #3D405B;
+    --light: #F2CC8F;
+}
+
+.work-section {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: var(--main);
+}
+
+.work-section article {
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-transition: -moz-transform 0.25s ease, opacity 0.25s ease, -moz-filter 1s ease, -webkit-filter 1s ease;
+    -webkit-transition: -webkit-transform 0.25s ease, opacity 0.25s ease, -webkit-filter 1s ease, -webkit-filter 1s ease;
+    -ms-transition: -ms-transform 0.25s ease, opacity 0.25s ease, -ms-filter 1s ease, -webkit-filter 1s ease;
+    transition: transform 0.25s ease, opacity 0.25s ease, filter 1s ease, -webkit-filter 1s ease;
+    padding: 4em 4em 2em 4em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: default;
+    height: 40vh;
+    max-height: 40em;
+    min-height: 23em;
+    overflow: hidden;
+    position: relative;
+    width: 40%;
+}
+
+/* subtitles */
+
+.work-section article h3 {
+    font-size: 24px;
+    background-color: var(--background);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--main)
+}
+
+.work-section article p {
+    font-size: 16px;
+    color: var(--dark);
+}
+
+.work-section article h3 a:hover {
+    color: inherit !important;
+}
+
+.work-section article div {
+    padding: 10px 5px;
+    background-color: var(--background)
+}
+
+.work-section article .link {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    color: var(--main)
+}
+
+/* transitions */
+
+.work-section article:before {
+    -moz-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.85;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.work-section article:after {
+    background-color: rgba(36, 41, 67, 0.25);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.work-section article:hover:before {
+    opacity: 0;
+}
+
+.work-section article.is-transitioning {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    -moz-filter: blur(0.5em);
+    -webkit-filter: blur(0.5em);
+    -ms-filter: blur(0.5em);
+    filter: blur(0.5em);
+    opacity: 0;
+}
+
+.work-section article:nth-child(6n - 5):before {
+    background-color: #6fc3df;
+}
+
+.work-section article:nth-child(6n - 4):before {
+    background-color: #8d82c4;
+}
+
+.work-section article:nth-child(6n - 3):before {
+    background-color: #ec8d81;
+}
+
+.work-section article:nth-child(6n - 2):before {
+    background-color: #e7b788;
+}
+
+.work-section article:nth-child(6n - 1):before {
+    background-color: #8ea9e8;
+}
+
+.work-section article:nth-child(6n):before {
+    background-color: #87c5a4;
+}
+
+
+/* work background images */
+
+#image1 {
+    background-image: url(images/A11Y.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    min-height: 400px;
+    max-height: 600px; 
+    
+}
+
+#image2 {
+    background-image: url(images/javascript-book.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 100px 0px 100px;
+    min-height: 400px;
+    max-height: 600px;
+
+}
+
+#image3 {
+    background-image: url(images/diabetes-management.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    min-height: 400px;
+    max-height: 600px;
+
+}
+
+#image4 {
+    background-image: url(images/my-food-diary.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 100px 0px 100px;
+    min-height: 400px;
+    max-height: 600px;
+
+}
+
+#image5 {
+    background-image: url(images/project-brain-control.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    min-height: 400px;
+    max-height: 600px;
+
+}
+
+#image6 {
+    background-image: url(images/Hero2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 100px 0px 100px;
+    min-height: 400px;
+    max-height: 600px;
+
+}
+
+@media screen and (max-device-width : 1199px) {
+
+    .about-section > h2 {
+        flex: 0 0 15%;
+        text-align: center;
+        font-size: 32px;
+        line-height: 1.5;
+        border-right: none;
+        padding-right: 20px
+    }
+
+
+    #image1 {
+        background-image: url(../images/A11Y.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 50px 20px;
+        min-height: 400px;
+        max-height: 600px; 
+        width:100%;
+        
+    }
+    
+    #image2 {
+        background-image: url(../images/javascript-book.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 100px 0px 100px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    #image3 {
+        background-image: url(../images/diabetes-management.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 50px 20px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    #image4 {
+        background-image: url(../images/my-food-diary.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 100px 0px 100px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    #image5 {
+        background-image: url(../images/project-brain-control.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 50px 20px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    #image6 {
+        background-image: url(../images/Hero2.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 100px 0px 100px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    }
+
+
+
+@media screen and (max-device-width : 960px) {
+
+
+    #image1 {
+        background-image: url(../images/A11Y.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 50px 20px;
+        min-height: 400px;
+        max-height: 600px; 
+        width:100%;
+        
+    }
+    
+    #image2 {
+        background-image: url(../images/javascript-book.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 100px 0px 100px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    #image3 {
+        background-image: url(../images/diabetes-management.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 50px 20px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    #image4 {
+        background-image: url(../images/my-food-diary.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 100px 0px 100px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    #image5 {
+        background-image: url(../images/project-brain-control.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 50px 20px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    #image6 {
+        background-image: url(../images/Hero2.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 100px 100px 0px 100px;
+        min-height: 400px;
+        max-height: 600px;
+        width:100%;
+    
+    }
+    
+    }
+
+
