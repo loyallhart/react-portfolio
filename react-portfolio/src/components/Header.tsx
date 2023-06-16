@@ -19,22 +19,22 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
+              <a className="nav-link" aria-current="page" href="#about">
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#work">
                 Portfolio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>
             <li className="nav-item">
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="https://drive.google.com/file/d/1oDKDp4tGpcLzxqRw5QFYaSmPIO1Jk-rs/view?usp=sharing">
                 Resume
               </a>
             </li>
