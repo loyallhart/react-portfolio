@@ -152,7 +152,7 @@
 /* work background images */
 
 #image1 {
-    background-image: url(images/A11Y.jpg);
+    background-image: url("static/images/A11Y.jpg");
     background-size: cover;
     background-position: center;
     padding: 50px 20px;
@@ -162,7 +162,7 @@
 }
 
 #image2 {
-    background-image: url(images/javascript-book.jpg);
+    background-image: url("static/images/javascript-book.jpg");
     background-size: cover;
     background-position: center;
     padding: 100px 100px 0px 100px;
@@ -172,7 +172,7 @@
 }
 
 #image3 {
-    background-image: url(images/diabetes-management.jpg);
+    background-image: url("static/images/diabetes-management.jpg");
     background-size: cover;
     background-position: center;
     padding: 50px 20px;
@@ -182,7 +182,7 @@
 }
 
 #image4 {
-    background-image: url(images/my-food-diary.jpg);
+    background-image: url("static/images/my-food-diary.jpg");
     background-size: cover;
     background-position: center;
     padding: 100px 100px 0px 100px;
@@ -192,7 +192,7 @@
 }
 
 #image5 {
-    background-image: url(images/project-brain-control.jpg);
+    background-image: url("static/images/project-brain-control.jpg");
     background-size: cover;
     background-position: center;
     padding: 50px 20px;
@@ -202,7 +202,7 @@
 }
 
 #image6 {
-    background-image: url(images/Hero2.jpg);
+    background-image: url("static/images/Hero2.jpg");
     background-size: cover;
     background-position: center;
     padding: 100px 100px 0px 100px;
@@ -224,7 +224,7 @@
 
 
     #image1 {
-        background-image: url(../images/A11Y.jpg);
+        background-image: url("static/images/A11Y.jpg");
         background-size: cover;
         background-position: center;
         padding: 50px 20px;
@@ -235,7 +235,7 @@
     }
     
     #image2 {
-        background-image: url(../images/javascript-book.jpg);
+        background-image: url("static/images/javascript-book.jpg");
         background-size: cover;
         background-position: center;
         padding: 100px 100px 0px 100px;
@@ -246,7 +246,7 @@
     }
     
     #image3 {
-        background-image: url(../images/diabetes-management.jpg);
+        background-image: url("static/images/diabetes-management.jpg");
         background-size: cover;
         background-position: center;
         padding: 50px 20px;
@@ -257,7 +257,7 @@
     }
     
     #image4 {
-        background-image: url(../images/my-food-diary.jpg);
+        background-image: url("static/images/my-food-diary.jpg");
         background-size: cover;
         background-position: center;
         padding: 100px 100px 0px 100px;
@@ -268,7 +268,7 @@
     }
     
     #image5 {
-        background-image: url(../images/project-brain-control.jpg);
+        background-image: url("static/images/project-brain-control.jpg");
         background-size: cover;
         background-position: center;
         padding: 50px 20px;
@@ -279,7 +279,7 @@
     }
     
     #image6 {
-        background-image: url(../images/Hero2.jpg);
+        background-image: url("static/images/Hero2.jpg");
         background-size: cover;
         background-position: center;
         padding: 100px 100px 0px 100px;
@@ -297,7 +297,7 @@
 
 
     #image1 {
-        background-image: url(../images/A11Y.jpg);
+        background-image: url("static/images/A11Y.jpg");
         background-size: cover;
         background-position: center;
         padding: 50px 20px;
@@ -308,7 +308,7 @@
     }
     
     #image2 {
-        background-image: url(../images/javascript-book.jpg);
+        background-image: url("static/images/javascript-book.jpg");
         background-size: cover;
         background-position: center;
         padding: 100px 100px 0px 100px;
@@ -319,7 +319,7 @@
     }
     
     #image3 {
-        background-image: url(../images/diabetes-management.jpg);
+        background-image: url("static/images/diabetes-management.jpg");
         background-size: cover;
         background-position: center;
         padding: 50px 20px;
@@ -330,7 +330,7 @@
     }
     
     #image4 {
-        background-image: url(../images/my-food-diary.jpg);
+        background-image: url("static/images/my-food-diary.jpg");
         background-size: cover;
         background-position: center;
         padding: 100px 100px 0px 100px;
@@ -341,7 +341,7 @@
     }
     
     #image5 {
-        background-image: url(../images/project-brain-control.jpg);
+        background-image: url("static/images/project-brain-control.jpg");
         background-size: cover;
         background-position: center;
         padding: 50px 20px;
@@ -352,7 +352,7 @@
     }
     
     #image6 {
-        background-image: url(../images/Hero2.jpg);
+        background-image: url("static/images/Hero2.jpg");
         background-size: cover;
         background-position: center;
         padding: 100px 100px 0px 100px;
@@ -363,5 +363,6 @@
     }
     
     }
+
 
 
